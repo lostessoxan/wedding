@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
 @font-face {
   font-family: "mr_HamiltoneG";
-  src: url(./20094.ttf);
+  src: url(./20094.woff2);
 }
 :root {
   --touch-width: 40px;
@@ -248,7 +248,7 @@ section {
 /* =================================================== main */
 @font-face {
   font-family: "mr_HamiltoneG";
-  src: url(./20094.ttf);
+  src: url(./20094.woff2);
 }
 .main {
   position: relative;
