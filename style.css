@@ -954,15 +954,6 @@ section {
   left: 50%;
   margin-left: -3px;
   z-index: 1;
-  animation: moveline 6s linear forwards;
-}
-@keyframes moveline {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
 }
 @media screen and (max-width: 630px) {
   .schedule__timeline {
@@ -985,6 +976,7 @@ section {
   position: relative;
   width: 50%;
   padding: 1rem 3rem;
+  z-index: 200;
 }
 .schedule__box > img {
   display: block;

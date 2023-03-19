@@ -201,3 +201,24 @@ modal.addEventListener('click', function (e) {
     if (e.target.classList.contains('survey__overlay')) closeModal()
 })
 
+// ================================
+
+ScrollReveal({ 
+    // reset: true, 
+    distance: '60px', 
+    duration: 1400, 
+    delay: 50 
+});
+
+ScrollReveal().reveal('.main__name, .conducting__img, .happy__img, .schedule__title, .dresscode__title, .dresscode__item, .requests__title', { 
+    origin: 'top'
+});
+ScrollReveal().reveal('.main__time, .conducting__text, .place__container, .happy__swiper, .survey__title, .survey__desc, .survey__btns, .timer__countdown', { 
+    origin: 'bottom'
+});
+ScrollReveal().reveal('.date__img, .story__img, .schedule__box-left, .dresscode_color, .pictures__text', { 
+    origin: 'left'
+});
+ScrollReveal().reveal('.date__text, .story__text, .schedule__box-right, .requests__row, .pictures__img', { 
+    origin: 'right'
+});
